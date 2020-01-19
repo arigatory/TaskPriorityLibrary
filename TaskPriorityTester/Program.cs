@@ -16,6 +16,8 @@ namespace TaskPriorityTester
             Task t1 = new Task("Read Troelsen", "almost finished but still have to read");
             Task t2 = new Task("Set up VPN", "my rasbperry pi needs to be used all the way");
             Task t3 = new Task("Neural Network", "complete the book you're reading");
+            Task t4 = new Task("Sleep well", "complete the book you're reading");
+            Task t5 = new Task("Dance", "complete the book you're reading");
 
 
             myTasks.Add(t1);
@@ -26,8 +28,8 @@ namespace TaskPriorityTester
 
             myTasks.Sort();
 
+            Console.WriteLine("*** Done! ***");
             myTasks.PrintAll();
-
             Console.ReadLine();
         }
     }
